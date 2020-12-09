@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px; 
+	background: url("bkk.jpg");
+	background-size: cover;
+}
+.header{
+	width:420px;
+	height:290px;
+	background-color:#265aa6; 
+	padding: 70px 30px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+	opacity: .9.5;
+	border-radius:10px;
+	box-sizing: border-box;	
+}
+.logo{
+	width:100px;
+	height:100px;
+	top:-40px;
+	left:-30px;
+	border-radius:50px;
+	position: absolute;
+}
+
+h1{
+	color: white;
+	font-family: century gothic;
+	margin:0px; 
+}
+ab{
+	content:url(ipl.png);
+	width:33px;
+}
+.header input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.header input[type="text"]{
+	height: 40px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #006FF4; 
+	outline: none;
+	color:white;
+}
+
+.header select{
+	height: 25px;
+	border: none;
+	outline: none;
+	background-color: #006FF4;
+	color:white;
+	border-radius:20px;
+
+}
+
+.header input[type="Submit"]{
+	height: 40px;
+	background-color: #006FF4;
+	outline: none;
+	border: none;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius:20px;
+}
+
+.header a{
+	color:white;
+	cursor: pointer;
+}
+
+.header input[type="Submit"]:hover{
+	background-color:aqua;
+	color: aquamarine;
+}
+
+.footer{
+	background-color:#397115; 
+	padding: 10px 100px;
+	padding: 10px 100px;
+	opacity: .5;
+}
